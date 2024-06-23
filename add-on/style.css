@@ -1,0 +1,19 @@
+ul {
+	list-style: none;
+}
+
+li::before {
+	content: "••";
+	padding-right: 6px;
+	color: darkblue;
+}
+
+a {
+	color: darkblue;
+}
+
+p {
+	font-size: 15px;
+	font-family: cursive;
+	margin-left: 15px;
+}
